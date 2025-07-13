@@ -138,7 +138,7 @@ def create_features_from_historical(historical_data, n_features):
 # Configuration de l'application Streamlit
 st.set_page_config(page_title="CuTradeX Dashboard", layout="wide")
 
-st.title("Trading ActorCritic-PPO Dashboard")
+st.title("Trading Copper Dashboard - CuTradeX")
 st.markdown("**Apprentissage par renforcement pour le trading de CFD sur le cuivre**")
 
 # Vérification des données
