@@ -136,9 +136,9 @@ def create_features_from_historical(historical_data, n_features):
         return combined_features[:n_features]
 
 # Configuration de l'application Streamlit
-st.set_page_config(page_title="Trading PPO Dashboard", layout="wide")
+st.set_page_config(page_title="CuTradeX Dashboard", layout="wide")
 
-st.title("Trading PPO Dashboard")
+st.title("Trading ActorCritic-PPO Dashboard")
 st.markdown("**Apprentissage par renforcement pour le trading de CFD sur le cuivre**")
 
 # Vérification des données
@@ -169,7 +169,7 @@ if df_copper_rl is None or df_encoded is None:
 st.sidebar.header("⚙️ Paramètres")
 
 # Paramètres du modèle
-st.sidebar.subheader("Modèle PPO")
+st.sidebar.subheader("Modèle ActorCritic-PPO")
 n_epochs = st.sidebar.slider("Nombre d'époques d'entraînement", 5, 50, 15)
 hidden_dim = st.sidebar.slider("Dimension cachée", 64, 256, 128)
 learning_rate = st.sidebar.select_slider("Taux d'apprentissage", 
