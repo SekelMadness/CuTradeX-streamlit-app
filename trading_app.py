@@ -27,8 +27,8 @@ MARGIN_REQUIRED_PER_CONTRACT = (CFD_CONTRACT_SIZE * 4.00) / LEVERAGE
 MAX_DAILY_TRADES = 5
 
 # Chargement des données
-df_copper_rl = pd.read_csv('./df_copper_rl.csv', index_col='date', parse_dates=True)
-df_encoded = pd.read_csv('./df_encoded.csv', index_col='date', parse_dates=True)
+df_copper_rl = pd.read_csv('df_copper_rl.csv', index_col='date', parse_dates=True)
+df_encoded = pd.read_csv('df_encoded.csv', index_col='date', parse_dates=True)
 
 # Définition du modèle Actor-Critic
 class ActorCritic(nn.Module):
