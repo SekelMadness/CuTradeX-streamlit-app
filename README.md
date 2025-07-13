@@ -16,6 +16,9 @@ This multi-model approach enables more robust and explainable decisions under hi
 
 ---
 
+## Installation
+>numpy<br>pandas<br>plotly<br>torch
+
 ## Project Structure
 
 ```bash
