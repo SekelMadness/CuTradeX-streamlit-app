@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo_CuTradeX.png" alt="CuTradeX Logo" width="250"/>
+</p>
+
 # CuTradeX
 
 **CuTradeX** is a proof-of-concept application for decision-making in **daily copper trading**. It combines **reinforcement learning** and advanced forecasting/classification/scoring models to assist in navigating the volatility of commodity markets, particularly copper.
